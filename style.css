@@ -2,12 +2,12 @@
     --base: #ffc600;
     --spacing: 20px;
     --blur: 10px;
-    --quick-color-green: #2dd28c;
-    --quick-color-red: #f20d52;
-    --quick-color-white: #f8f8f8;
-    --quick-color-blue: #210be8;
-    --quick-color-brown: #78715a;
-    --quick-color-black: #0e0c0e;
+    --quick-color-quickGreen: #2dd28c;
+    --quick-color-quickRed: #f20d52;
+    --quick-color-quickWhite: #f8f8f8;
+    --quick-color-quickBlue: #210be8;
+    --quick-color-quickBrown: #78715a;
+    --quick-color-quickBlack: #0e0c0e;
 }
 
 img {
@@ -58,25 +58,25 @@ input {
 }
 
 .green {
-    background: var(--quick-color-green);
+    background: var(--quick-color-quickGreen);
 }
 
 .red {
-    background: var(--quick-color-red);
+    background: var(--quick-color-quickRed);
 }
 
 .white {
-    background: var(--quick-color-white);
+    background: var(--quick-color-quickWhite);
 }
 
 .blue {
-    background: var(--quick-color-blue);
+    background: var(--quick-color-quickBlue);
 }
 
 .brown {
-    background: var(--quick-color-brown);
+    background: var(--quick-color-quickBrown);
 }
 
 .black {
-    background: var(--quick-color-black);
+    background: var(--quick-color-quickBlack);
 }
