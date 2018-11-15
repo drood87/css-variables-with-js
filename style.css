@@ -2,6 +2,10 @@
     --base: #ffc600;
     --spacing: 20px;
     --blur: 10px;
+    --quick-color-green: #2dd28c;
+    --quick-color-red: #f20d52;
+    --quick-color-white: #f8f8f8;
+    --quick-color-blue: #210be8;
 }
 
 img {
@@ -29,4 +33,23 @@ body {
 
 input {
     width: 100px;
+}
+
+.quick-colors-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.quick-color {
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+.column__color {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
 }
