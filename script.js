@@ -1,11 +1,7 @@
 const inputs = document.querySelectorAll(".controls input");
-const spacing = document.querySelector("#spacing");
-const blur = document.querySelector("#blur");
-const base = document.querySelector("#base");
 
 function handleUpdate() {
-    const suffix = this.dataset.sizing || "";
-    console.log(`name: ${this.name}, value: ${this.value}`);
+    const suffix = this.dataset.sizing || ""; // will assign the value of the data attribute to the variable OR if not available, leave it empty;
     document.documentElement.style.setProperty(
         `--${this.name}`,
         this.value + suffix
