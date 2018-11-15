@@ -1,11 +1,11 @@
 const inputs = document.querySelectorAll(".controls input");
 const quickColors = document.querySelectorAll(".quick-color");
-const bodyStyles = window.getComputedStyle(document.body);
+const bodyStyles = window.getComputedStyle(document.body); // get CSS properties from the root element
 
 function quickColorsUpdate() {
     const quick = this.dataset.quickcolor;
     const color = bodyStyles.getPropertyValue("--quick-color-" + quick);
-    // console.log(color);
+
     document.documentElement.style.setProperty("--base", color);
 }
 
