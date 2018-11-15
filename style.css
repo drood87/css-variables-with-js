@@ -6,6 +6,8 @@
     --quick-color-red: #f20d52;
     --quick-color-white: #f8f8f8;
     --quick-color-blue: #210be8;
+    --quick-color-brown: #78715a;
+    --quick-color-black: #0e0c0e;
 }
 
 img {
@@ -44,6 +46,7 @@ input {
     width: 100px;
     height: 100px;
     background: white;
+    cursor: pointer;
 }
 
 .column__color {
@@ -52,4 +55,28 @@ input {
     justify-content: space-between;
     margin-left: 45px;
     margin-right: 45px;
+}
+
+.green {
+    background: var(--quick-color-green);
+}
+
+.red {
+    background: var(--quick-color-red);
+}
+
+.white {
+    background: var(--quick-color-white);
+}
+
+.blue {
+    background: var(--quick-color-blue);
+}
+
+.brown {
+    background: var(--quick-color-brown);
+}
+
+.black {
+    background: var(--quick-color-black);
 }

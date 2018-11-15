@@ -1,4 +1,7 @@
 const inputs = document.querySelectorAll(".controls input");
+const quickColors = document.querySelectorAll(".quick-color");
+
+console.log(quickColors);
 
 function handleUpdate() {
     const suffix = this.dataset.sizing || ""; // will assign the value of the data attribute to the variable OR if not available, leave it empty;
