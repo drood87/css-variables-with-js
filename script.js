@@ -1,11 +1,10 @@
 const inputs = document.querySelectorAll(".controls input");
 const quickColors = document.querySelectorAll(".quick-color");
 const bodyStyles = window.getComputedStyle(document.body); // get CSS properties from the root element
-
+const hl = document.querySelector(".hl")
 function quickColorsUpdate() {
     const quick = this.dataset.quickcolor;
     const color = bodyStyles.getPropertyValue("--quick-color-" + quick);
-
     document.documentElement.style.setProperty("--base", color);
 }
 
@@ -20,7 +19,7 @@ function handleUpdate() {
 }
 
 inputs.forEach(input => input.addEventListener("change", handleUpdate));
-inputs.forEach(input => input.addEventListener("mousemove", handleUpdate));
+// inputs.forEach(input => input.addEventListener("mousemove", handleUpdate));
 quickColors.forEach(quick =>
     quick.addEventListener("click", quickColorsUpdate)
 );
